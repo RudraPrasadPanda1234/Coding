@@ -1,0 +1,43 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "sum",
+            "request": "launch",
+            "mainClass": "sum",
+            "projectName": "CODING_5dcd60e7"
+        },
+        {
+            "type": "java",
+            "name": "myname",
+            "request": "launch",
+            "mainClass": "myname",
+            "projectName": "CODING_5dcd60e7"
+        },
+        {
+            "type": "java",
+            "name": "Calculator",
+            "request": "launch",
+            "mainClass": "Calculator",
+            "projectName": "CODING_5dcd60e7"
+        },
+        {
+            "type": "java",
+            "name": "fuel",
+            "request": "launch",
+            "mainClass": "fuel",
+            "projectName": "CODING_5dcd60e7"
+        },
+        {
+            "type": "java",
+            "name": "floor",
+            "request": "launch",
+            "mainClass": "floor",
+            "projectName": "CODING_5dcd60e7"
+        }
+    ]
+}

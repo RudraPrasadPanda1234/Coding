@@ -1,0 +1,1 @@
+print("Hello World \n""I Hate love stories")
