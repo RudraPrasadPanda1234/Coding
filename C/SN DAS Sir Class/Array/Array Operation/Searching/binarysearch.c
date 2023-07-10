@@ -1,3 +1,4 @@
+//Write a program to implement binary search on array elements using UDF
 #include <stdio.h>
 int bsearch(int list[], int lb, int ub, int sitem)
 {
@@ -22,15 +23,15 @@ int main()
     printf("Enter the elemnts:");
     for (i = 0; i < n; i++)
         scanf("%d", &list[i]);
-    printf("The items are as foloows:");
+    printf("The items are as follows:\n");
     for (i = 0; i < n; i++)
         printf("list[%d] :%d\n", i, list[i]);
-    printf("Enter the item to search");
+    printf("Enter the item to search:\n");
     scanf("%d", &sitem);
     int b = bsearch(list, 0, n - 1, sitem);
     if (b == -1)
-        printf("Element is not presnt ");
+        printf("Element %d is not presnt",sitem);
     else
-        printf("Elemnt is present at %d position", b);
+        printf("Element %d is present at %d position",sitem,b);
     return 0;
 }
