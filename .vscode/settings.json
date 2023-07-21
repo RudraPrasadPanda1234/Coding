@@ -4,5 +4,10 @@
         "stdio.h": "c",
         "towerofhanoi": "c",
         "stdlib.h": "c"
-    }
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "python.formatting.provider": "none",
+    "editor.defaultFormatter": "njpwerner.autodocstring"
 }
