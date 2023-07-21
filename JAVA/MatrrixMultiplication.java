@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MatrixMultiplication {
+public class MatrrixMultiplication {
 
     public static void main(String[] args) {
 

@@ -17,14 +17,14 @@ int multiply(int x, int y)
 // function two subtract two numbers
 int subtract(int x, int y)
 {
-    int f = x - y;
+    int f = x - y
     //return f;
     printf("Subtraction of %d and %d is :%d \n",x,y,f);
 }
 // main funtion
 int main()
 {
-    int a, b;
+    int a b;
     printf("Enter 1 integer:");
     scanf("%d", &a);
     printf("Enter 1 integer:");
