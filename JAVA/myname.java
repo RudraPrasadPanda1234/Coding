@@ -3,9 +3,9 @@ import java.util.*;
 public class myname {
     public static void main(String args[]) {
         int c;
-        Scanner input = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
         System.out.println("enter a number");
-        c = input.nextInt();
+        c = in.nextInt();
         if (c % 2 == 0)
             System.out.println("is an even number");
         else
