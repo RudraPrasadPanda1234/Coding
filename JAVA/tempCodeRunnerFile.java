@@ -1,1 +1,1 @@
-sc 
+public class Phone {
