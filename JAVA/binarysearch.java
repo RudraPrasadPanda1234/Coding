@@ -6,7 +6,7 @@ public class binarysearch {
         while (lb <= ub) {
             mid = (lb + ub) / 2;
             if (list[mid] == sitem)
-                return (mid +1 1);
+                return (mid +1);
             else if (list[mid] > sitem)
                 ub = mid - 1;
             else
