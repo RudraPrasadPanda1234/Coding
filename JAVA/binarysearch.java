@@ -19,7 +19,7 @@ public class binarysearch {
         int sitem, n, i;
         int[] list = new int[100];
         Scanner in = new Scanner(System.in);
-        System.out.println("Enter the elemnts ");
+        System.out.println("Enter the total number of elemnts ");
         n = in.nextInt();
         System.out.println("Enter the elemnets");
         for (i = 0; i < n; i++)
@@ -33,7 +33,7 @@ public class binarysearch {
         if (b == -1)
             System.out.println("Element " + sitem + " is not present");
         else
-            System.out.println("Element " + sitem + " is present at position" + b);
+            System.out.println("Element " + sitem + " is present at position " + b);
     }
 }
 //Code By Rudra
