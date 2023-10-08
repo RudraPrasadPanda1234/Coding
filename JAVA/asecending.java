@@ -18,10 +18,9 @@ public class asecending {
             }
         }
         System.out.println("Numbers in ascending order:");
-        for (int i=0;i<10;i++) {
-            System.out.print(numbers[i]+ " ");
+        for (int i = 0; i < 10; i++) {
+            System.out.print(numbers[i] + " ");
         }
-
         in.close();
     }
 }

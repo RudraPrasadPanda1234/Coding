@@ -1,12 +1,9 @@
-public class deepcopy {
-    
-}
 class ABC  
 {  
 // instance variable of the class ABC  
 int x = 30;  
 }  
-public class DeepCopyExample   
+public class deepcopy  
 {     
 // main method  
 public static void main(String argvs[])   

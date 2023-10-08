@@ -1,31 +1,65 @@
+
 //2D Array
-import java.util.Scanner;
-class matrixsum
-{
-	static int i,j,n;
+import java.util.*;
+
+public class matrixsum {
 	public static void main(String[] args)
 	{
+		int row1,col1,row2,col2,i,j;
 		Scanner in = new Scanner(System.in);
-		int a[][]= new int[3][2];
-		System.out.print("Enter elements:");
-		for(i=0;i<3;i++)
+		int matrix1[][]= new int[50][50];
+		int matrix2[][]= new int[50][50];
+		int sum[][]=new int[50][50];
+		System.out.println("Enter the number of row of first matrix:");
+		row1=in.nextInt();
+		System.out.println("Enter the number column of the first matrix");
+		col1=in.nextInt();
+		System.out.println("Enter the values of first matrix");
+		for(i=0;i<row1;i++)
 		{
-			for(j=0;j<2;j++)
+			for(j=0;j<col1;j++)
 			{
-				a[i][j]=in.nextInt();
-				n=n+a[i][j];
+				matrix1[i][j]=in.nextInt();
+				//n=n+a[row][col];
 			}
 		}
-		System.out.println("The matrix is");
-		for(i=0;i<3;i++)
+		System.out.println("Enter the number of row of second matrix:");
+		row2=in.nextInt();
+		System.out.println("Enter the number column of the second matrix");
+		col2=in.nextInt();
+		//System.out.println("The matrix is");
+		System.out.println("Enter the values of second matrix");
+		for(i=0;i<row2;i++)
 		{
-			for(j=0;j<2;j++)
+			for(j=0;j<col2;j++)
 			{
-				System.out.print(a[i][j]+" ");
+				matrix2[i][j]=in.nextInt();
 			}
-			System.out.println(" ");
 		}
-
-		System.out.println("The sum is "+n);
+		if(row1==row2 && col1==col2)
+		{
+			for(i=0;i<row1;i++)
+			{
+				for(j=0;j<col1;j++)
+				{
+					sum[i][j]=matrix1[i][j]+matrix2[i][j];
+				}
+			}
+		}
+		else
+		{
+			System.out.println("The dimension mismatched");
+		}
+		System.out.println("The sum of the matrix is:");
+		for(i=0;i<row1;i++)
+			{
+				for(j=0;j<col1;j++)
+				{
+					
+					System.out.print(sum[i][j]+"  ");
+				}
+				System.out.println( );
+			}
 	}
 }
+//Code By Rudra
