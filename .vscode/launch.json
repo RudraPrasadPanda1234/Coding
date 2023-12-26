@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "display",
+            "request": "launch",
+            "mainClass": "display",
+            "projectName": "CODING_5dcd60e7"
+        },
+        {
+            "type": "java",
+            "name": "bank",
+            "request": "launch",
+            "mainClass": "bank",
+            "projectName": "CODING_5dcd60e7"
+        },
+        {
+            "type": "java",
             "name": "asecending",
             "request": "launch",
             "mainClass": "asecending",
