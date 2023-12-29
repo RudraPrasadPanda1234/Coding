@@ -6,6 +6,7 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "book1",
             "request": "launch",
             "mainClass": "book1",
@@ -23,6 +24,11 @@
             "name": "book1",
             "request": "launch",
             "mainClass": "JAVA.Labprograms.book1",
+=======
+            "name": "display",
+            "request": "launch",
+            "mainClass": "display",
+>>>>>>> 22216765950b0353634c0d947f52592bf9441ac3
             "projectName": "CODING_5dcd60e7"
         },
         {

@@ -8,8 +8,6 @@ class CSE{
         name=in.nextLine();
         System.out.println("Enter the regd no");
         regd_no=in.nextLine();
-        //System.err.println("Enter the subject");
-        //sub=in.nextLine();
         System.out.println("Enter the marks of the DSA");
         DSA=in.nextDouble();
         System.out.println("Enter the marks of JAVA");
@@ -18,7 +16,6 @@ class CSE{
         PPS=in.nextDouble();
         System.out.println("Enter the marks of Python");
         PY=in.nextDouble();
-        in.close();
     }    
     void calculate(){
         avg=(DSA+JAVA+PPS+PY)/4;
@@ -44,8 +41,6 @@ class ECE{
         name=in.nextLine();
         System.out.println("Enter the regd no");
         regd_no=in.nextLine();
-        //System.err.println("Enter the subject");
-        //sub=in.nextLine();
         System.out.println("Enter the marks of the CESS");
         CESS=in.nextDouble();
         System.out.println("Enter the marks of EE");
@@ -54,7 +49,6 @@ class ECE{
         BEE=in.nextDouble();
         System.out.println("Enter the marks of DBMS");
         DBMS=in.nextDouble();
-        in.close();
     } 
     void calculate(){
         avg=(CESS+EE+BEE+DBMS)/4;
@@ -75,9 +69,8 @@ public class display {
         CSE ob=new CSE();
         ECE ob1=new ECE();
         Scanner in=new Scanner(System.in);
-        System.out.println("Enter 1 for CSE\n2 for ECE");
+        System.out.println("Enter 1 for CSE 2 for ECE");
         int a=in.nextInt();
-        in.close();
         switch (a) {
             case 1:
                 ob.input();
@@ -91,6 +84,7 @@ public class display {
             break;
             default:
             System.out.println("Enter properly");
+            in.close();
         }
     }
 }
