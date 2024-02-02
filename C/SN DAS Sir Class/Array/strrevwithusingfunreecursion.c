@@ -28,7 +28,8 @@ int main()
     char str[200/2],t;
     int i,l;
     printf("Enter any string:");
-    scanf("%s",str);
+    //scanf("%s",str);
+    scanf("%[^\n]s", str);
    // strrev(str);
    revstr(str);
     return 0;
