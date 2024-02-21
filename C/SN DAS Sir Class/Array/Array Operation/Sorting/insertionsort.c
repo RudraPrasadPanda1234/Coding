@@ -16,22 +16,21 @@ void insertionsort(int a[], int n)
 }
 int main()
 {
-    int arr[100];
-    int n, mid, sitem;
-    printf("Enter the size of array:");
+    int arr[100],n;
+    printf("Enter the size of array:\n");
     scanf("%d", &n);
-    printf("Enter element:");
+    printf("Enter the %d no of array element randomly: \n",n);
     for (int i = 0; i < n; i++)
     {
         scanf("%d", &arr[i]);
     }
-    printf("Arrary before sorting:\n");
+    printf("Array before sorting:\n");
     for (int i = 0; i < n; i++)
     {
         printf("%d\t", arr[i]);
     }
     insertionsort(arr, n);
-    printf("\n Array after sorting:\n");
+    printf("\nArray after sorting:\n");
     for (int i = 0; i < n; i++)
     {
         printf("%d\t", arr[i]);
