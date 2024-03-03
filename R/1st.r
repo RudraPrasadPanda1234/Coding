@@ -72,3 +72,30 @@ class(x)
 # numeric
 x <- 10.5
 class(x)
+
+#typeconversion
+x <- 1L # integer
+y <- 2 # numeric
+# convert from integer to numeric:
+a <- as.numeric(x)
+# convert from numeric to integer:
+b <- as.integer(y)
+# print values of x and y
+x
+y
+# print the class name of a and b
+class(a)
+class(b)
+
+#min , max
+min(5,10,15)
+
+#sqrt
+sqrt(16)
+
+#abs
+abs(-4.7)
+
+#celing and floor
+ceiling(1.4)
+floor(1.4)
