@@ -1,3 +1,18 @@
 {
-    "emmet.triggerExpansionOnTab": true
+    "emmet.triggerExpansionOnTab": true,
+    "C_Cpp.errorSquiggles": "disabled"
+}
+{
+    
+    "[kotlin]": {
+        "editor.defaultFormatter": "cstef.kotlin-formatter"
+    },
+    "[kotlinscript]": {
+        "editor.defaultFormatter": "cstef.kotlin-formatter"
+    }
+}
+{
+    "[ktlintPath]":{
+        "includepath":"C:\\ktlint-1.1.1\\bin"
+    }
 }

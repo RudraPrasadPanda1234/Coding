@@ -1,11 +1,11 @@
 //WAP to check wheter the given number is armstrong number or not
-#include <stdio.h>
-int pow(int base, int exp)
+#include<stdio.h>
+int poww(int base, int exp)
 {
     if (exp == 0)
         return (1);
     else
-        return (base * pow(base, exp - 1));
+        return (base * poww(base, exp - 1));
 }
 int main()
 {
@@ -22,7 +22,7 @@ int main()
     while (temp > 0)
     {
         rem = temp % 10;
-        sum = sum + pow(rem, d);
+        sum = sum + poww(rem, d);
         temp = temp / 10;
     }
     if (sum == n)

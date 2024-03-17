@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayushi's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #343a40;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 60px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            margin: 10px 0;
+            font-size: 1.2em;
+            opacity: 0.8;
+        }
+
+        nav {
+            background-color: #343a40;
+            padding: 15px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+            color: white;
+            font-weight: bold;
+            font-size: 1.2em;
+            text-decoration: none;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+
+        nav li:hover {
+            color: #007bff;
+        }
+
+        section.hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 60px 0;
+            background-color: #fff;
+            border-bottom: 2px solid #eee;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section.hero .leftSection {
+            max-width: 500px;
+            text-align: left;
+        }
+
+        section.hero .leftSection p {
+            font-size: 1.2em;
+            color: #555;
+            opacity: 0.8;
+        }
+
+        section.hero .rightSection img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section.about {
+            padding: 60px 0;
+            background-color: #f8f9fa;
+            text-align: center;
+        }
+
+        section.about h2 {
+            color: #007bff;
+        }
+
+        section.about p {
+            font-size: 1.2em;
+            color: #555;
+            opacity: 0.8;
+        }
+
+        section.experience {
+            padding: 80px 0;
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section.experience h2 {
+            color: #007bff;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .timeline {
+            position: relative;
+            margin-top: 40px;
+        }
+
+        .event {
+            margin-bottom: 40px;
+        }
+
+        .event .date {
+            font-size: 1.2em;
+            color: #007bff;
+        }
+
+        .event h3 {
+            margin-top: 10px;
+            color: #343a40;
+        }
+
+        .event p {
+            font-size: 1.1em;
+            color: #555;
+            opacity: 0.8;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+
+            header p {
+                font-size: 1em;
+            }
+
+            nav li {
+                font-size: 1em;
+            }
+
+            section.hero {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            section.hero .leftSection {
+                max-width: 100%;
+            }
+
+            section.hero .rightSection img {
+                margin-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Ayushi's Portfolio</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Projects</li>
+            <li>Contact Me</li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="leftSection">
+            <p>Hi, I'm Ayushi, a passionate web developer.</p>
+            <p>Let's create something amazing together!</p>
+        </div>
+        <div class="rightSection">
+            <img src="dev.png" alt="Developer Image">
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>I am a creative and detail-oriented web developer with a strong foundation in front-end and back-end technologies. My goal is to build user-friendly and visually appealing websites. Let's connect and bring your ideas to life!</p>
+    </section>
+
+    <section class="experience">
+        <h2>Work Experience</h2>
+        <div class="timeline">
+            <div class="event" data-aos="fade-up" data-aos-duration="1000">
+                <div class="date">Jan 2023 - Present</div>
+                <div class="details">
+                    <h3>Web Developer at XYZ Company</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis euismod justo at massa posuere, sit amet mattis justo aliquam.</p>
+                </div>
+            </div>
+
+            <div class="event" data-aos="fade-up" data-aos-duration="1000">
+                <div class="date">May 2021 - Dec 2022</div>
+                <div class="details">
+                    <h3>Junior Developer at ABC Tech</h3>
+                    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+
+            <!-- Add more events as needed -->
+
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 Ayushi's Portfolio. All rights reserved.
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
