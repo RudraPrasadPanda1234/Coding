@@ -1,0 +1,7 @@
+Experiment 5
+1.wap to create 2 list, 1st list contains 5 integers 2nd list contains 5 string , now print the list one element from each list
+2.wap to create an integer list of 20 elements , now increase the odd values by 5
+3.wap to print the first 15 fibbonnaci series elements
+4.wap to create 2 list and print the even  numbers of both list in a seperate list
+5.wap to take a list of 10 elements now divide the list into two half and 1st half in the asccending order and the 2nd order is decending order
+6.wap to remove the duplicate value in list

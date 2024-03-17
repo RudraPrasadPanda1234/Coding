@@ -1,0 +1,6 @@
+Experiment 6
+1. Write a program to read two dictionaries from the keyboard and merge the two dictionaries.
+2. WAP to create a dictionary and print the key which is the maximum value.
+3. WAP to create dictionary and remove the duplicate values.
+4. WAP to create a set and copy the content of the set to a new set.
+5. WAP to read two sets from the keyboard and perform all the set operations
