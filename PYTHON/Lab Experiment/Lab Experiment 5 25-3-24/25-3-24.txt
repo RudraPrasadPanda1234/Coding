@@ -1,0 +1,4 @@
+1.Create an employe class attributes all employes are belongs to the same organization every employe having their own employe id and employe name and dept. Create five employe objects and display their details
+2.WAP to override the area calculation of three shapes (square,rectangle,triangle)
+3.WAP to overload the addition method with diff no of arguments
+4.WAP for all types of inheritances 
