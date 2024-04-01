@@ -1,0 +1,4 @@
+1.wap for zero division  error 
+2.try with multipule excepts
+3.try with multiple except and defult except
+4.zero division error in outer try block and value error in inner try block
