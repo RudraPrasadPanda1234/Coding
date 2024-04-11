@@ -14,11 +14,11 @@ def string(x):
         return "Five"
 numbers = [1, 2, 3, 4, 5]
 string_list = list(map(str, numbers))
-print("List in string is=",string_list)
+print("Number present in list but each number is string data type=",string_list)
 stringlist=map(string,numbers)
 for num in stringlist:
-    print("Number after converting to word=",num)
+    print("Converting each number indiviaully to string eg. 1=one =",num)
     stringlist1=list(num)
-    print("list after converting number in to word and then each letter to string to list =",list(stringlist1))
+    print("Displaying each word in list after converting number in to word and then converting each letter from the word to string =",list(stringlist1))
 stringlist1=list(map(string,numbers))
-print("Number after converting to list=",list(stringlist1))
+print("Coverting the each number in the list to its's respective word then diplaying it in form of list =",list(stringlist1))

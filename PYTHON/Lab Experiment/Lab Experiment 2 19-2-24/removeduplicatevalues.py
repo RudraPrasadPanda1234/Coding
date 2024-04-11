@@ -7,5 +7,3 @@ while i<len(l1)-1:
     else:
         i+=1
 print(l1)
-
-

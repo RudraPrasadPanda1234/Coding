@@ -6,6 +6,6 @@ l2=eval(input("Enter a list for power"))
 #l3=eval(input("Enter a list"))
 if(len(l1)==len(l2)):
     l4=list(map(pow1,l1,l2))
-    print("The list after adding according to its index value",l4)
+    print("Power=",l4)
 else:
     print("Length is not same")
