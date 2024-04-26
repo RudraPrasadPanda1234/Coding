@@ -1,0 +1,4 @@
+1.Creating a 2d array and perform the arithematic operations
+2.Creating the multidimensional array for zeros,ones, and reshape
+3.Creating a 2D array and perform sorting and splitting in terms of rows wise and column wise
+4.Creating a 2D array and perform max() min() sum() std() for row wise and column wise

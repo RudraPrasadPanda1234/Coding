@@ -10,4 +10,3 @@ except ValueError:
     print("value error have occured")
 except TypeError:
     print("Type error have ocurred")
-    

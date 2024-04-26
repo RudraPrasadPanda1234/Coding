@@ -1,4 +1,4 @@
-#Program to triple all numbers in a given list of integers using map()and using functions.
+#1.Program to triple all numbers in a given list of integers using map()and using functions.
 def cube(x):
     return x*3
 l1=eval(input("Enter a list"))

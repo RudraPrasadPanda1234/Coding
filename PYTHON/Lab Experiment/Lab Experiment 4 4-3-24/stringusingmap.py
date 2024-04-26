@@ -1,4 +1,4 @@
-#WAP to convert the list of integers to the corresponding string while using map()
+#4.WAP to convert the list of integers to the corresponding string while using map()
 def string(x):
     if(x==0):
         return "Zero"

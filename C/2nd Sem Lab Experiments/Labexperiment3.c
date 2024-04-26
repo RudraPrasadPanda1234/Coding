@@ -1,4 +1,4 @@
-//Write a C program to create methods for operations insertion and display on 1d array of elements using UDF
+// Write a C program to create methods for operations insertion and display on 1d array of elements using UDF
 #include <stdio.h>
 // int display(int a[],int n);
 // int insert(int a[],int n);
@@ -13,12 +13,12 @@ int display(int a[], int n)
 }
 int insert(int a[], int n)
 {
-    int pos=5, i, item=99;
+    int pos = 5, i, item = 99;
     printf("Enter the postion where you want to insert the element: ");
     scanf("%d", &pos);
     printf("Enter the item into the postion: ");
     scanf("%d", &item);
-    for (i = n-1; i >= pos - 1; i--)
+    for (i = n - 1; i >= pos - 1; i--)
     {
         a[i + 1] = a[i];
     }

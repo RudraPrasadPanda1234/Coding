@@ -1,4 +1,4 @@
-#WAP to take two equal number of lists now perform the power operation here base is the one list and power is another list 
+#3.WAP to take two equal number of lists now perform the power operation here base is the one list and power is another list 
 def pow1(x,y):
     return pow(x,y)
 l1=eval(input("Enter a list base"))

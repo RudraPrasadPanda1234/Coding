@@ -6,4 +6,3 @@ try:
     print("Result=",c)
 except ZeroDivisionError:
     print("Zero division error ocurred")
-    

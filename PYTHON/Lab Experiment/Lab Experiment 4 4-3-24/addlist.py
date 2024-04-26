@@ -1,4 +1,4 @@
-#WAP to add three given lists of equal number of elements using map()
+#2.WAP to add three given lists of equal number of elements using map()
 def add(x,y,z):
     return x+y+z
 l1=eval(input("Enter a list"))

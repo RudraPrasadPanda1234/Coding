@@ -14,6 +14,7 @@ class Employee:
         print("Employee Name:", self.emp_name)
         print("Department:", self.dept)
         print("Age:",self.age)
+        print("Organization:",Employee.oname)
         print()
 
 # Creating employee objects

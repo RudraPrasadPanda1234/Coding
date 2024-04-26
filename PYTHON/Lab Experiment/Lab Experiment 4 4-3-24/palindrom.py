@@ -1,4 +1,4 @@
-#WAP to enter a number and check whether it is a palindrome or not.
+#5.WAP to enter a number and check whether it is a palindrome or not.
 def is_palindrome(number):
     original = number
     reversed = 0

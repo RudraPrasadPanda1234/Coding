@@ -1,4 +1,4 @@
-#WAP to overload the addition method with diff no of arguments
+#3.WAP to overload the addition method with diff no of arguments
 class Addition:
     def add(self,*args):
         result = 0

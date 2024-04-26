@@ -12,4 +12,3 @@ except TypeError:
     print("Type error have ocurred")
 except:
     print("Default exception")
-    

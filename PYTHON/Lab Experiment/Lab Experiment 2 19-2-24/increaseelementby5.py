@@ -1,4 +1,4 @@
-#wap to create an integer list of 20 elements , now increase the odd values by 5
+#2.wap to create an integer list of 20 elements , now increase the odd values by 5
 #1st way
 #integerlist= list(range(1, 21))
 #2nd way

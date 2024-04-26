@@ -1,3 +1,4 @@
+#1.Create an employe class attributes all employes are belongs to the same organization every employe having their own employe id and employe name and dept. Create five employe objects and display their details
 class Employee:
     oname="GIETU"
     def __init__(self,emp_name,age,emp_id,dept):
@@ -27,4 +28,3 @@ for i in range(5):
         
 for employee in employee_objects:
     employee.display_details()
-    

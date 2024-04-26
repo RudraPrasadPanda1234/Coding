@@ -18,4 +18,3 @@ if max_key:
  print("The key with the maximum value is:", max_key)
 else:
   print("The dictionary is empty.")
-        

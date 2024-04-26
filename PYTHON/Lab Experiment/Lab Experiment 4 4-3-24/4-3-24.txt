@@ -1,6 +1,6 @@
-#Program to triple all numbers in a given list of integers using map()and using functions.
-#WAP to add three given lists of equal number of elements using map()
-#WAP to take two equal number of lists now perform the power operation here base is the one list and power is another list
-#WAP to convert the list of integers to the corresponding string while using map()
-#WAP to enter a number and check whether it is a palindrome or not.
-#WAP to convert distance in meters to kilometers.
+1.Program to triple all numbers in a given list of integers using map()and using functions.
+2.WAP to add three given lists of equal number of elements using map()
+3.WAP to take two equal number of lists now perform the power operation here base is the one list and power is another list
+4.WAP to convert the list of integers to the corresponding string while using map()
+5.WAP to enter a number and check whether it is a palindrome or not.
+6.WAP to convert distance in meters to kilometers.
