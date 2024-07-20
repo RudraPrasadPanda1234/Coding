@@ -1,7 +1,7 @@
 fun main()
 {
     var arr = arrayOf ("One","Two","Three") //Data type taken implicitly 
-    var arr1 = arrayOf (1,2,3)
+    var arr1 = arrayOf (1,2,3)   //Data type taken implicitly 
     var arr2 = arrayOf <Int> (3,4,5)  //Data type declared explicitly 
     for (i in arr){
         println(i)

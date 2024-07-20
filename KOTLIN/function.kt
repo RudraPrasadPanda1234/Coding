@@ -28,7 +28,7 @@ fun main()
 // }
 
 fun printmessage(count: Int = 2){      //Parameters         
-    for(i in 1..count){           //This will taken 2 as by defaultg value if no value is passed from the user during the function call
+    for(i in 1..count){           //This will taken 2 as by default value if no value is passed from the user during the function call
         println("Hello $i")       //Count is of val type and can not be re assinged       
     }
 }

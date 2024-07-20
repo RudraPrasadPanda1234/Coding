@@ -1,0 +1,9 @@
+Data types in kotlin -->
+Integer(Byte,Short,Int,Long)
+Floating(Float,Double)
+Boolean(True,False)
+Character(CHar,String)
+Type Inference-->
+Finds the type of the variable automatically based on the value given
+Type Checking-->
+Checks whether the entered value is compatible to the value or not

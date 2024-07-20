@@ -11,7 +11,7 @@ fun main(){
     // println("The 2 Table is below:")
     // while(index<=10)
     // {
-    //     println("$number * $index = "+number*index)
+    //     println("$number * $index = "+number*index)         //
     //     index++
     // }
 

@@ -1,4 +1,4 @@
-#6.Wap to remove duplicate values from list
+ #6.Wap to remove duplicate values from list
 l1=[1,2,2,3,5,6]
 i=0
 while i<len(l1)-1:
